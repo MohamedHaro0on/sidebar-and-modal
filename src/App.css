@@ -1,0 +1,30 @@
+ul{
+    padding : 0px ;
+    list-style : none ;
+}
+button{
+    outline : none ;
+    border : none ;
+    padding : 10px ;
+    background-color : transparent ;
+    cursor : pointer ;
+}
+.Layout{
+    position : absolute ;
+    top : 0px; 
+    bottom : 0px ;
+    left : 0px ;
+    right : 0px ;
+    background-color : rgba(0,0,0,.5);
+}
+
+.Container{
+    display : flex ;
+    height : 100vh ;
+}
+
+.MainContent {
+    display : flex; 
+    align-items: center ;
+    justify-content: center;
+}
