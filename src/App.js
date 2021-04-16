@@ -1,5 +1,5 @@
 import Layout from "./Layout";
-import { BrowserRouter as Router, Switch , Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 
@@ -14,11 +14,7 @@ const App = () => {
     <Router>
       <Switch>
         <Layout>
-            <Route exact path = "/" component = {Modal} />
-            <Route exact path = "/documents" component = {Modal} />
-            <Route exact path = "/team" component = {Modal} />
-            <Route exact path = "/projects" component = {Modal} />
-            <Route exact path = "/calendar" component = {Modal} />
+          <Modal />
         </Layout>
       </Switch>
     </Router>
